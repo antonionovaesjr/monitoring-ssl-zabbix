@@ -1,5 +1,6 @@
 #!/bin/bash
 ARQUIVO=/tmp/sites-temp.txt
+touch $ARQUIVO
 chmod 777 /tmp/sites-temp.txt
 echo "" >  $ARQUIVO
 APACHE_SITE_DIR=/etc/httpd/conf.d/
