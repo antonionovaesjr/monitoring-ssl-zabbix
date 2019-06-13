@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# Desenvolvido por Antonio Novaes e Alan Queiroz
 import json
 import sys
 
