@@ -7,7 +7,9 @@ cd /root
 
 git clone https://github.com/antonionovaesjr/monitoring-ssl-zabbix.git
 
-usermod -d /home/zabbix -m zabbix
+mkdir -p /home/zabbix
+
+usermod -d /home/zabbix zabbix
 
 mkdir /etc/zabbix/script/ssl -p
 
