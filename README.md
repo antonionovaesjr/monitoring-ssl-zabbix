@@ -9,6 +9,8 @@ git clone https://github.com/antonionovaesjr/monitoring-ssl-zabbix.git
 
 mkdir -p /home/zabbix
 
+chown zabbix:zabbix -R /home/zabbix
+
 usermod -d /home/zabbix zabbix
 
 mkdir /etc/zabbix/script/ssl -p
