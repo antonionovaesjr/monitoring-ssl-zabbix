@@ -3,6 +3,8 @@
 Com git instalado e com usuário root, siga o procedimento abaixo:
 
 ```sh
+yum install git -y
+
 cd /root
 
 git clone https://github.com/antonionovaesjr/monitoring-ssl-zabbix.git
