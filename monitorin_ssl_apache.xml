@@ -124,7 +124,7 @@ O retorno está no formato JSON.</description>
                             <expression>{Discovery-SSL:certificado[{#SERVERNAME}].last(0)}&lt;3 and {Discovery-SSL:certificado[{#SERVERNAME}].last(0)}&gt;0</expression>
                             <recovery_mode>0</recovery_mode>
                             <recovery_expression/>
-                            <name>Certificado da URL {#SERVERNAME} expira em {ITEM.LASTVALUE1} dia(s)</name>
+                            <name>Certificado da URL {#SERVERNAME} expira em {ITEM.LASTVALUE} dia(s)</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
                             <url/>
@@ -140,7 +140,7 @@ O retorno está no formato JSON.</description>
                             <expression>{Discovery-SSL:certificado[{#SERVERNAME}].last(0)}&lt;10 and {Discovery-SSL:certificado[{#SERVERNAME}].last(0)} &gt; 2</expression>
                             <recovery_mode>0</recovery_mode>
                             <recovery_expression/>
-                            <name>Certificado da URL {#SERVERNAME} expira em {ITEM.LASTVALUE1} dia(s)</name>
+                            <name>Certificado da URL {#SERVERNAME} expira em {ITEM.LASTVALUE} dia(s)</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
                             <url/>
@@ -156,7 +156,7 @@ O retorno está no formato JSON.</description>
                             <expression>{Discovery-SSL:certificado[{#SERVERNAME}].last(0)}&lt;30 and {Discovery-SSL:certificado[{#SERVERNAME}].last(0)}&gt;10</expression>
                             <recovery_mode>0</recovery_mode>
                             <recovery_expression/>
-                            <name>Certificado da URL {#SERVERNAME} expira em {ITEM.LASTVALUE1} dia(s)</name>
+                            <name>Certificado da URL {#SERVERNAME} expira em {ITEM.LASTVALUE} dia(s)</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
                             <url/>
