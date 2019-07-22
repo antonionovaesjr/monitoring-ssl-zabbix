@@ -17,11 +17,11 @@ usermod -d /home/zabbix zabbix
 
 mkdir /etc/zabbix/script/ssl -p
 
-cp -v monitoring-ssl-zabbix/userparameter* /etc/zabbix/zabbix-agent.d/
+cp -v monitoring-ssl-zabbix/userparameter_ssl.conf /etc/zabbix/zabbix-agent.d/
 
-cp -v monitoring-ssl-zabbix/ssl/* /etc/zabbix/script/ssl
+cp -v monitoring-ssl-zabbix/ssl/* /etc/zabbix/script/ssl/
 
-chmod 755 /etc/zabbix/script/ssl
+chmod 755 -R /etc/zabbix/script/ssl
 
 chown zabbix:zabbix -R /etc/zabbix
 
